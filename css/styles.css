@@ -1,9 +1,11 @@
 :root {
   --title-color: #FFFFFF;
+  --hover-color: #404bbf
+  --focus-color: #404bbf
 }
 
 body {
-    font-family: "Roboto", "sans-serif";
+    font-family: "roboto", "sans-serif";
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -25,9 +27,10 @@ border-bottom: 1px solid #E7E9FC;
 
 /* LOGO */
 .logo-web {
+  font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;  
@@ -47,6 +50,7 @@ color: #2E2F42;
 
 /* contacts studio portfolio*/
 .header-link {
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -55,7 +59,7 @@ color: #2E2F42;
 }
 .header-link:hover,
 .header-link:focus {
-  color: #4D5AE5;
+  color:var(--hover-color);
 } 
 /* e-mail and cell*/
 .header-link-address {
@@ -67,7 +71,7 @@ color: #434455;
 }
 .header-link-address:hover,
 .header-link-address:focus {
-  color: #4D5AE5;
+  color: #404bbf;
 } 
 /*---------HERO---------------*/
 
