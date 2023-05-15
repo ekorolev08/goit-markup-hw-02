@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "RAleway";
+    font-family: "Roboto", "Raleway";
     color: #2E2F42;
 }
 .list {
@@ -64,10 +64,38 @@ color: #434455;
 .header-link-address:focus {
   color: #4D5AE5;
 } 
+/*---------HERO---------------*/
+
 .hidden{
   color: white;
 }
+.header1 {
+  /* Header 1 */
+  /* Effective Solutions for Your Business */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+color: tomato/* #FFFFFF;*/
+}
+.header2 {
+/* Header 2 */
+/* What are we doing */
 
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+color: #2E2F42;
+}
+.header3{
+  /* Header 3 */
+/* Our Team */
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+color: #2E2F42;
+}
 .text1,
 .text2,
 .text3,
