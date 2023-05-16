@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -27,7 +27,7 @@ border-bottom: 1px solid #E7E9FC;
 
 /* LOGO */
 .logo-web {
-  font-family: 'Raleway';
+  font-family:"Roboto", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -37,10 +37,10 @@ border-bottom: 1px solid #E7E9FC;
 }
 .logo-web:hover,
 .logo-web:focus {
-  color: #4D5AE5;
+  color: #404bbf ;
 } 
 .logo-studio {
-    font-family: 'Raleway';
+    font-family: "Roboto", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -64,6 +64,7 @@ color: #2E2F42;
 } 
 /* e-mail and cell*/
 .header-link-address {
+  font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
