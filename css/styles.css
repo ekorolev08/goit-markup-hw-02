@@ -4,6 +4,8 @@
   --focus-color: #404bbf;
   --background-color: #2E2F42;
   --logo-color: #2E2F42;
+  --btn-color: #4d5ae5;
+  --btn-background-color:#F4F4FD
 }
 
 body {
@@ -173,4 +175,20 @@ background-color:var(--background-color)
 }
 .logo-footer {
   color:#F4F4Fd;
+}
+/*----------------------button--------------------*/
+.btn-all{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--btn-color);
+  background-color: var(--btn-background-color);
+}
+.btn-all:hover,
+.btn-all:focus{
+  color:#FFFFFF;
+  background-color: #404BBF;
 }
