@@ -3,6 +3,7 @@
   --hover-color: #404bbf;
   --focus-color: #404bbf;
   --background-color: #2E2F42;
+  --logo-color: #2E2F42;
 }
 
 body {
@@ -47,7 +48,7 @@ border-bottom: 1px solid #E7E9FC;
     line-height: 1.16;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: var(--logo-color);
 }
 
 /* contacts studio portfolio*/
