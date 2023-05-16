@@ -49,6 +49,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
 }
+.logo-studio-footer{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
 
 /* contacts studio portfolio*/
 .header-link {
@@ -125,9 +134,13 @@ text-transform: capitalize;
 background-color: #F4F4FD;
 color: #2E2F42;
 }
-.first-img{
-  background-color: #FFFFFF
+.img-list {
+  background-color: #F4F4FD;
 }
+.first-img{
+  background-color: #FFFFFF;
+}
+
 .studio-btn {
   font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -164,4 +177,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#F4F4FD;
+}
+.mine-footer{
+  background-color:var(--background-color)
 }
