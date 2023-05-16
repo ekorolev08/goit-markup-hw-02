@@ -84,7 +84,7 @@ color: #434455;
   background-color: var(--background-color);
 }
 .hidden{
-  color: white;
+  color: tomato;
 }
 .first-header {
   /* Header 1 */
@@ -129,29 +129,15 @@ color: #FFFFFF;
 .studio-btn:focus{
 background-color: #404BBF;
 }
-.text1,
-.text2,
-.text3,
-.text4,
-.text5,
-.text6,
-.text7,
-.text8,
-.text9{
+
+.text{
   font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
   color: #2E2F42;
 }
-.name1,
-.name2,
-.name3,
-.name4,
-.name5,
-.name6,
-.name7,
-.name8,
+
 .name9{
   font-weight: 400;
 font-size: 16px;
