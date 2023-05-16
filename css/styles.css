@@ -83,6 +83,9 @@ color: #434455;
 .first-section{
   background-color: var(--background-color);
 }
+.fourth-section{
+  background-color: #F4F4FD
+}
 .hidden{
   color: tomato;
 }
@@ -121,6 +124,9 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 background-color: #F4F4FD;
 color: #2E2F42;
+}
+.first-img{
+  background-color: #FFFFFF
 }
 .studio-btn {
   font-family: "Roboto", sans-serif;
